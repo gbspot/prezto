@@ -10,4 +10,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+setopt NO_HUP
+
+export EDITOR="emacs"
+
+# Case insensitive globbing
+setopt NO_CASE_GLOB
+
+# Globs
+setopt NUMERIC_GLOB_SORT
+setopt EXTENDED_GLOB
