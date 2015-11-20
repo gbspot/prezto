@@ -20,3 +20,5 @@ setopt NO_CASE_GLOB
 # Globs
 setopt NUMERIC_GLOB_SORT
 setopt EXTENDED_GLOB
+
+PATH=/usr/local/bin:$HOME/bin:$PATH
